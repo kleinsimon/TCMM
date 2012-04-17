@@ -318,23 +318,15 @@ namespace TC_Macro_Manager
         {
             if (CurrentMakro != null)
             {
-                bool bottomFlag = false;
                 int vsmax, vsmin;
                 int savedVpos = ScrollHelper.GetScrollPos(textBox1.Handle, ScrollHelper.SB_VERT);
-                int sbOffset = (int)((textBox1.ClientSize.Height - SystemInformation.HorizontalScrollBarHeight) / (textBox1.Font.Height));
                 ScrollHelper.GetScrollRange(textBox1.Handle, ScrollHelper.SB_VERT, out vsmin, out vsmax);
 
-                if (savedVpos >= (vsmax - sbOffset - 1))
-                    bottomFlag = true;
 
+                
                 textBox1.Text = TCM.makeMacro(CurrentMakro);
 
-                if (bottomFlag)
-                {
-                    ScrollHelper.GetScrollRange(textBox1.Handle, ScrollHelper.SB_VERT, out vsmin, out vsmax);
-                    savedVpos = vsmax - sbOffset;
-                    bottomFlag = false;
-                }
+
                 ScrollHelper.SetScrollPos(textBox1.Handle, ScrollHelper.SB_VERT, savedVpos, true);
                 ScrollHelper.PostMessageA(textBox1.Handle, ScrollHelper.WM_VSCROLL, ScrollHelper.SB_THUMBPOSITION + 0x10000 * savedVpos, 0);
             }
