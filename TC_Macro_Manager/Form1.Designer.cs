@@ -69,35 +69,35 @@
             this.tabCondition = new System.Windows.Forms.TabPage();
             this.splitContainer2 = new System.Windows.Forms.SplitContainer();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.splitContainer3 = new System.Windows.Forms.SplitContainer();
+            this.dataGridViewElm = new TC_Macro_Manager.DataGridViewEx();
+            this.SaveToolElement = new TC_Macro_Manager.SaveTool();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.splitContainer4 = new System.Windows.Forms.SplitContainer();
+            this.dataGridViewCond = new TC_Macro_Manager.DataGridViewEx();
+            this.SaveToolCondition = new TC_Macro_Manager.SaveTool();
             this.tabPhase = new System.Windows.Forms.TabPage();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.splitContainer5 = new System.Windows.Forms.SplitContainer();
+            this.dataGridViewPhases = new TC_Macro_Manager.DataGridViewEx();
+            this.SaveToolPhases = new TC_Macro_Manager.SaveTool();
             this.tabBefehle = new System.Windows.Forms.TabPage();
+            this.groupBox9 = new System.Windows.Forms.GroupBox();
+            this.splitContainer9 = new System.Windows.Forms.SplitContainer();
+            this.textBoxPostText = new System.Windows.Forms.TextBox();
+            this.textBoxSaveToolPostText = new TC_Macro_Manager.SaveTool();
+            this.groupBox8 = new System.Windows.Forms.GroupBox();
+            this.splitContainer8 = new System.Windows.Forms.SplitContainer();
+            this.textBoxPolyText = new System.Windows.Forms.TextBox();
+            this.textBoxSaveToolPolyText = new TC_Macro_Manager.SaveTool();
             this.groupBox7 = new System.Windows.Forms.GroupBox();
+            this.splitContainer7 = new System.Windows.Forms.SplitContainer();
+            this.textBoxDBText = new System.Windows.Forms.TextBox();
+            this.textBoxSaveToolDBText = new TC_Macro_Manager.SaveTool();
             this.folderBrowserDialog1 = new System.Windows.Forms.FolderBrowserDialog();
             this.toolTipCntrl = new System.Windows.Forms.ToolTip(this.components);
             this.saveFileDialogExport = new System.Windows.Forms.SaveFileDialog();
             this.openFileDialogImport = new System.Windows.Forms.OpenFileDialog();
-            this.splitContainer3 = new System.Windows.Forms.SplitContainer();
-            this.splitContainer7 = new System.Windows.Forms.SplitContainer();
-            this.textBoxDBText = new System.Windows.Forms.TextBox();
-            this.splitContainer4 = new System.Windows.Forms.SplitContainer();
-            this.groupBox8 = new System.Windows.Forms.GroupBox();
-            this.splitContainer8 = new System.Windows.Forms.SplitContainer();
-            this.textBoxPolyText = new System.Windows.Forms.TextBox();
-            this.groupBox9 = new System.Windows.Forms.GroupBox();
-            this.splitContainer9 = new System.Windows.Forms.SplitContainer();
-            this.textBoxPostText = new System.Windows.Forms.TextBox();
-            this.dataGridViewElm = new TC_Macro_Manager.DataGridViewEx();
-            this.SaveToolElement = new TC_Macro_Manager.SaveTool();
-            this.dataGridViewCond = new TC_Macro_Manager.DataGridViewEx();
-            this.SaveToolCondition = new TC_Macro_Manager.SaveTool();
-            this.dataGridViewPhases = new TC_Macro_Manager.DataGridViewEx();
-            this.SaveToolPhases = new TC_Macro_Manager.SaveTool();
-            this.textBoxSaveToolPostText = new TC_Macro_Manager.SaveTool();
-            this.textBoxSaveToolPolyText = new TC_Macro_Manager.SaveTool();
-            this.textBoxSaveToolDBText = new TC_Macro_Manager.SaveTool();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -117,40 +117,40 @@
             this.splitContainer2.Panel2.SuspendLayout();
             this.splitContainer2.SuspendLayout();
             this.groupBox2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer3)).BeginInit();
+            this.splitContainer3.Panel1.SuspendLayout();
+            this.splitContainer3.Panel2.SuspendLayout();
+            this.splitContainer3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewElm)).BeginInit();
             this.groupBox4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer4)).BeginInit();
+            this.splitContainer4.Panel1.SuspendLayout();
+            this.splitContainer4.Panel2.SuspendLayout();
+            this.splitContainer4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewCond)).BeginInit();
             this.tabPhase.SuspendLayout();
             this.groupBox3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer5)).BeginInit();
             this.splitContainer5.Panel1.SuspendLayout();
             this.splitContainer5.Panel2.SuspendLayout();
             this.splitContainer5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewPhases)).BeginInit();
             this.tabBefehle.SuspendLayout();
-            this.groupBox7.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.splitContainer3)).BeginInit();
-            this.splitContainer3.Panel1.SuspendLayout();
-            this.splitContainer3.Panel2.SuspendLayout();
-            this.splitContainer3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.splitContainer7)).BeginInit();
-            this.splitContainer7.Panel1.SuspendLayout();
-            this.splitContainer7.Panel2.SuspendLayout();
-            this.splitContainer7.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.splitContainer4)).BeginInit();
-            this.splitContainer4.Panel1.SuspendLayout();
-            this.splitContainer4.Panel2.SuspendLayout();
-            this.splitContainer4.SuspendLayout();
-            this.groupBox8.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.splitContainer8)).BeginInit();
-            this.splitContainer8.Panel1.SuspendLayout();
-            this.splitContainer8.Panel2.SuspendLayout();
-            this.splitContainer8.SuspendLayout();
             this.groupBox9.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer9)).BeginInit();
             this.splitContainer9.Panel1.SuspendLayout();
             this.splitContainer9.Panel2.SuspendLayout();
             this.splitContainer9.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewElm)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewCond)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewPhases)).BeginInit();
+            this.groupBox8.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer8)).BeginInit();
+            this.splitContainer8.Panel1.SuspendLayout();
+            this.splitContainer8.Panel2.SuspendLayout();
+            this.splitContainer8.SuspendLayout();
+            this.groupBox7.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer7)).BeginInit();
+            this.splitContainer7.Panel1.SuspendLayout();
+            this.splitContainer7.Panel2.SuspendLayout();
+            this.splitContainer7.SuspendLayout();
             this.SuspendLayout();
             // 
             // splitContainer1
@@ -185,17 +185,16 @@
             // 
             // textBox1
             // 
-            this.textBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox1.BackColor = System.Drawing.SystemColors.Window;
+            this.textBox1.CausesValidation = false;
+            this.textBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.textBox1.Font = new System.Drawing.Font("Courier New", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(3, 3);
+            this.textBox1.Location = new System.Drawing.Point(0, 0);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.ReadOnly = true;
             this.textBox1.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.textBox1.Size = new System.Drawing.Size(423, 685);
+            this.textBox1.Size = new System.Drawing.Size(429, 691);
             this.textBox1.TabIndex = 1;
             // 
             // tabControl1
@@ -536,88 +535,6 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Elemente";
             // 
-            // groupBox4
-            // 
-            this.groupBox4.Controls.Add(this.splitContainer4);
-            this.groupBox4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.groupBox4.Location = new System.Drawing.Point(0, 0);
-            this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(306, 181);
-            this.groupBox4.TabIndex = 10;
-            this.groupBox4.TabStop = false;
-            this.groupBox4.Text = "Konditionen";
-            // 
-            // tabPhase
-            // 
-            this.tabPhase.Controls.Add(this.groupBox3);
-            this.tabPhase.Location = new System.Drawing.Point(4, 22);
-            this.tabPhase.Name = "tabPhase";
-            this.tabPhase.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPhase.Size = new System.Drawing.Size(306, 665);
-            this.tabPhase.TabIndex = 1;
-            this.tabPhase.Text = "Phasen";
-            this.tabPhase.UseVisualStyleBackColor = true;
-            // 
-            // groupBox3
-            // 
-            this.groupBox3.Controls.Add(this.splitContainer5);
-            this.groupBox3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.groupBox3.Location = new System.Drawing.Point(3, 3);
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(300, 659);
-            this.groupBox3.TabIndex = 6;
-            this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "erlaubte Phasen";
-            // 
-            // splitContainer5
-            // 
-            this.splitContainer5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.splitContainer5.FixedPanel = System.Windows.Forms.FixedPanel.Panel2;
-            this.splitContainer5.IsSplitterFixed = true;
-            this.splitContainer5.Location = new System.Drawing.Point(3, 16);
-            this.splitContainer5.Name = "splitContainer5";
-            this.splitContainer5.Orientation = System.Windows.Forms.Orientation.Horizontal;
-            // 
-            // splitContainer5.Panel1
-            // 
-            this.splitContainer5.Panel1.Controls.Add(this.dataGridViewPhases);
-            // 
-            // splitContainer5.Panel2
-            // 
-            this.splitContainer5.Panel2.Controls.Add(this.SaveToolPhases);
-            this.splitContainer5.Size = new System.Drawing.Size(294, 640);
-            this.splitContainer5.SplitterDistance = 600;
-            this.splitContainer5.TabIndex = 1;
-            // 
-            // tabBefehle
-            // 
-            this.tabBefehle.Controls.Add(this.groupBox9);
-            this.tabBefehle.Controls.Add(this.groupBox8);
-            this.tabBefehle.Controls.Add(this.groupBox7);
-            this.tabBefehle.Location = new System.Drawing.Point(4, 22);
-            this.tabBefehle.Name = "tabBefehle";
-            this.tabBefehle.Padding = new System.Windows.Forms.Padding(3);
-            this.tabBefehle.Size = new System.Drawing.Size(306, 665);
-            this.tabBefehle.TabIndex = 3;
-            this.tabBefehle.Text = "Befehle";
-            this.tabBefehle.UseVisualStyleBackColor = true;
-            // 
-            // groupBox7
-            // 
-            this.groupBox7.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
-            this.groupBox7.Controls.Add(this.splitContainer7);
-            this.groupBox7.Location = new System.Drawing.Point(6, 6);
-            this.groupBox7.Name = "groupBox7";
-            this.groupBox7.Size = new System.Drawing.Size(292, 206);
-            this.groupBox7.TabIndex = 0;
-            this.groupBox7.TabStop = false;
-            this.groupBox7.Text = "Database Retrieval";
-            // 
-            // openFileDialogImport
-            // 
-            this.openFileDialogImport.FileName = "openFileDialog1";
-            // 
             // splitContainer3
             // 
             this.splitContainer3.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -637,149 +554,6 @@
             this.splitContainer3.Size = new System.Drawing.Size(300, 461);
             this.splitContainer3.SplitterDistance = 421;
             this.splitContainer3.TabIndex = 0;
-            // 
-            // splitContainer7
-            // 
-            this.splitContainer7.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.splitContainer7.FixedPanel = System.Windows.Forms.FixedPanel.Panel2;
-            this.splitContainer7.IsSplitterFixed = true;
-            this.splitContainer7.Location = new System.Drawing.Point(3, 16);
-            this.splitContainer7.Name = "splitContainer7";
-            this.splitContainer7.Orientation = System.Windows.Forms.Orientation.Horizontal;
-            // 
-            // splitContainer7.Panel1
-            // 
-            this.splitContainer7.Panel1.Controls.Add(this.textBoxDBText);
-            // 
-            // splitContainer7.Panel2
-            // 
-            this.splitContainer7.Panel2.Controls.Add(this.textBoxSaveToolDBText);
-            this.splitContainer7.Size = new System.Drawing.Size(286, 187);
-            this.splitContainer7.SplitterDistance = 147;
-            this.splitContainer7.TabIndex = 1;
-            // 
-            // textBoxDBText
-            // 
-            this.textBoxDBText.AcceptsReturn = true;
-            this.textBoxDBText.AcceptsTab = true;
-            this.textBoxDBText.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBoxDBText.Font = new System.Drawing.Font("Courier New", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxDBText.Location = new System.Drawing.Point(0, 0);
-            this.textBoxDBText.Multiline = true;
-            this.textBoxDBText.Name = "textBoxDBText";
-            this.textBoxDBText.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.textBoxDBText.Size = new System.Drawing.Size(286, 147);
-            this.textBoxDBText.TabIndex = 0;
-            // 
-            // splitContainer4
-            // 
-            this.splitContainer4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.splitContainer4.FixedPanel = System.Windows.Forms.FixedPanel.Panel2;
-            this.splitContainer4.IsSplitterFixed = true;
-            this.splitContainer4.Location = new System.Drawing.Point(3, 16);
-            this.splitContainer4.Name = "splitContainer4";
-            this.splitContainer4.Orientation = System.Windows.Forms.Orientation.Horizontal;
-            // 
-            // splitContainer4.Panel1
-            // 
-            this.splitContainer4.Panel1.Controls.Add(this.dataGridViewCond);
-            // 
-            // splitContainer4.Panel2
-            // 
-            this.splitContainer4.Panel2.Controls.Add(this.SaveToolCondition);
-            this.splitContainer4.Size = new System.Drawing.Size(300, 162);
-            this.splitContainer4.SplitterDistance = 122;
-            this.splitContainer4.TabIndex = 1;
-            // 
-            // groupBox8
-            // 
-            this.groupBox8.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
-            this.groupBox8.Controls.Add(this.splitContainer8);
-            this.groupBox8.Location = new System.Drawing.Point(6, 218);
-            this.groupBox8.Name = "groupBox8";
-            this.groupBox8.Size = new System.Drawing.Size(292, 206);
-            this.groupBox8.TabIndex = 1;
-            this.groupBox8.TabStop = false;
-            this.groupBox8.Text = "Poly_3";
-            // 
-            // splitContainer8
-            // 
-            this.splitContainer8.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.splitContainer8.FixedPanel = System.Windows.Forms.FixedPanel.Panel2;
-            this.splitContainer8.IsSplitterFixed = true;
-            this.splitContainer8.Location = new System.Drawing.Point(3, 16);
-            this.splitContainer8.Name = "splitContainer8";
-            this.splitContainer8.Orientation = System.Windows.Forms.Orientation.Horizontal;
-            // 
-            // splitContainer8.Panel1
-            // 
-            this.splitContainer8.Panel1.Controls.Add(this.textBoxPolyText);
-            // 
-            // splitContainer8.Panel2
-            // 
-            this.splitContainer8.Panel2.Controls.Add(this.textBoxSaveToolPolyText);
-            this.splitContainer8.Size = new System.Drawing.Size(286, 187);
-            this.splitContainer8.SplitterDistance = 147;
-            this.splitContainer8.TabIndex = 1;
-            // 
-            // textBoxPolyText
-            // 
-            this.textBoxPolyText.AcceptsReturn = true;
-            this.textBoxPolyText.AcceptsTab = true;
-            this.textBoxPolyText.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBoxPolyText.Font = new System.Drawing.Font("Courier New", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxPolyText.Location = new System.Drawing.Point(0, 0);
-            this.textBoxPolyText.Multiline = true;
-            this.textBoxPolyText.Name = "textBoxPolyText";
-            this.textBoxPolyText.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.textBoxPolyText.Size = new System.Drawing.Size(286, 147);
-            this.textBoxPolyText.TabIndex = 0;
-            // 
-            // groupBox9
-            // 
-            this.groupBox9.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
-            this.groupBox9.Controls.Add(this.splitContainer9);
-            this.groupBox9.Location = new System.Drawing.Point(6, 430);
-            this.groupBox9.Name = "groupBox9";
-            this.groupBox9.Size = new System.Drawing.Size(292, 206);
-            this.groupBox9.TabIndex = 2;
-            this.groupBox9.TabStop = false;
-            this.groupBox9.Text = "Post";
-            // 
-            // splitContainer9
-            // 
-            this.splitContainer9.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.splitContainer9.FixedPanel = System.Windows.Forms.FixedPanel.Panel2;
-            this.splitContainer9.IsSplitterFixed = true;
-            this.splitContainer9.Location = new System.Drawing.Point(3, 16);
-            this.splitContainer9.Name = "splitContainer9";
-            this.splitContainer9.Orientation = System.Windows.Forms.Orientation.Horizontal;
-            // 
-            // splitContainer9.Panel1
-            // 
-            this.splitContainer9.Panel1.Controls.Add(this.textBoxPostText);
-            // 
-            // splitContainer9.Panel2
-            // 
-            this.splitContainer9.Panel2.Controls.Add(this.textBoxSaveToolPostText);
-            this.splitContainer9.Size = new System.Drawing.Size(286, 187);
-            this.splitContainer9.SplitterDistance = 147;
-            this.splitContainer9.TabIndex = 1;
-            // 
-            // textBoxPostText
-            // 
-            this.textBoxPostText.AcceptsReturn = true;
-            this.textBoxPostText.AcceptsTab = true;
-            this.textBoxPostText.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBoxPostText.Font = new System.Drawing.Font("Courier New", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxPostText.Location = new System.Drawing.Point(0, 0);
-            this.textBoxPostText.Multiline = true;
-            this.textBoxPostText.Name = "textBoxPostText";
-            this.textBoxPostText.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.textBoxPostText.Size = new System.Drawing.Size(286, 147);
-            this.textBoxPostText.TabIndex = 0;
             // 
             // dataGridViewElm
             // 
@@ -830,6 +604,37 @@
             this.SaveToolElement.Size = new System.Drawing.Size(300, 36);
             this.SaveToolElement.TabIndex = 0;
             // 
+            // groupBox4
+            // 
+            this.groupBox4.Controls.Add(this.splitContainer4);
+            this.groupBox4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.groupBox4.Location = new System.Drawing.Point(0, 0);
+            this.groupBox4.Name = "groupBox4";
+            this.groupBox4.Size = new System.Drawing.Size(306, 181);
+            this.groupBox4.TabIndex = 10;
+            this.groupBox4.TabStop = false;
+            this.groupBox4.Text = "Konditionen";
+            // 
+            // splitContainer4
+            // 
+            this.splitContainer4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.splitContainer4.FixedPanel = System.Windows.Forms.FixedPanel.Panel2;
+            this.splitContainer4.IsSplitterFixed = true;
+            this.splitContainer4.Location = new System.Drawing.Point(3, 16);
+            this.splitContainer4.Name = "splitContainer4";
+            this.splitContainer4.Orientation = System.Windows.Forms.Orientation.Horizontal;
+            // 
+            // splitContainer4.Panel1
+            // 
+            this.splitContainer4.Panel1.Controls.Add(this.dataGridViewCond);
+            // 
+            // splitContainer4.Panel2
+            // 
+            this.splitContainer4.Panel2.Controls.Add(this.SaveToolCondition);
+            this.splitContainer4.Size = new System.Drawing.Size(300, 162);
+            this.splitContainer4.SplitterDistance = 122;
+            this.splitContainer4.TabIndex = 1;
+            // 
             // dataGridViewCond
             // 
             this.dataGridViewCond.AllowUserToOrderColumns = true;
@@ -879,6 +684,48 @@
             this.SaveToolCondition.Size = new System.Drawing.Size(300, 36);
             this.SaveToolCondition.TabIndex = 0;
             // 
+            // tabPhase
+            // 
+            this.tabPhase.Controls.Add(this.groupBox3);
+            this.tabPhase.Location = new System.Drawing.Point(4, 22);
+            this.tabPhase.Name = "tabPhase";
+            this.tabPhase.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPhase.Size = new System.Drawing.Size(306, 665);
+            this.tabPhase.TabIndex = 1;
+            this.tabPhase.Text = "Phasen";
+            this.tabPhase.UseVisualStyleBackColor = true;
+            // 
+            // groupBox3
+            // 
+            this.groupBox3.Controls.Add(this.splitContainer5);
+            this.groupBox3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.groupBox3.Location = new System.Drawing.Point(3, 3);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(300, 659);
+            this.groupBox3.TabIndex = 6;
+            this.groupBox3.TabStop = false;
+            this.groupBox3.Text = "erlaubte Phasen";
+            // 
+            // splitContainer5
+            // 
+            this.splitContainer5.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.splitContainer5.FixedPanel = System.Windows.Forms.FixedPanel.Panel2;
+            this.splitContainer5.IsSplitterFixed = true;
+            this.splitContainer5.Location = new System.Drawing.Point(3, 16);
+            this.splitContainer5.Name = "splitContainer5";
+            this.splitContainer5.Orientation = System.Windows.Forms.Orientation.Horizontal;
+            // 
+            // splitContainer5.Panel1
+            // 
+            this.splitContainer5.Panel1.Controls.Add(this.dataGridViewPhases);
+            // 
+            // splitContainer5.Panel2
+            // 
+            this.splitContainer5.Panel2.Controls.Add(this.SaveToolPhases);
+            this.splitContainer5.Size = new System.Drawing.Size(294, 640);
+            this.splitContainer5.SplitterDistance = 600;
+            this.splitContainer5.TabIndex = 1;
+            // 
             // dataGridViewPhases
             // 
             this.dataGridViewPhases.AllowUserToOrderColumns = true;
@@ -905,6 +752,64 @@
             this.SaveToolPhases.Size = new System.Drawing.Size(294, 36);
             this.SaveToolPhases.TabIndex = 0;
             // 
+            // tabBefehle
+            // 
+            this.tabBefehle.Controls.Add(this.groupBox9);
+            this.tabBefehle.Controls.Add(this.groupBox8);
+            this.tabBefehle.Controls.Add(this.groupBox7);
+            this.tabBefehle.Location = new System.Drawing.Point(4, 22);
+            this.tabBefehle.Name = "tabBefehle";
+            this.tabBefehle.Padding = new System.Windows.Forms.Padding(3);
+            this.tabBefehle.Size = new System.Drawing.Size(306, 665);
+            this.tabBefehle.TabIndex = 3;
+            this.tabBefehle.Text = "Befehle";
+            this.tabBefehle.UseVisualStyleBackColor = true;
+            // 
+            // groupBox9
+            // 
+            this.groupBox9.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.groupBox9.Controls.Add(this.splitContainer9);
+            this.groupBox9.Location = new System.Drawing.Point(6, 430);
+            this.groupBox9.Name = "groupBox9";
+            this.groupBox9.Size = new System.Drawing.Size(292, 206);
+            this.groupBox9.TabIndex = 2;
+            this.groupBox9.TabStop = false;
+            this.groupBox9.Text = "Post";
+            // 
+            // splitContainer9
+            // 
+            this.splitContainer9.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.splitContainer9.FixedPanel = System.Windows.Forms.FixedPanel.Panel2;
+            this.splitContainer9.IsSplitterFixed = true;
+            this.splitContainer9.Location = new System.Drawing.Point(3, 16);
+            this.splitContainer9.Name = "splitContainer9";
+            this.splitContainer9.Orientation = System.Windows.Forms.Orientation.Horizontal;
+            // 
+            // splitContainer9.Panel1
+            // 
+            this.splitContainer9.Panel1.Controls.Add(this.textBoxPostText);
+            // 
+            // splitContainer9.Panel2
+            // 
+            this.splitContainer9.Panel2.Controls.Add(this.textBoxSaveToolPostText);
+            this.splitContainer9.Size = new System.Drawing.Size(286, 187);
+            this.splitContainer9.SplitterDistance = 147;
+            this.splitContainer9.TabIndex = 1;
+            // 
+            // textBoxPostText
+            // 
+            this.textBoxPostText.AcceptsReturn = true;
+            this.textBoxPostText.AcceptsTab = true;
+            this.textBoxPostText.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textBoxPostText.Font = new System.Drawing.Font("Courier New", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxPostText.Location = new System.Drawing.Point(0, 0);
+            this.textBoxPostText.Multiline = true;
+            this.textBoxPostText.Name = "textBoxPostText";
+            this.textBoxPostText.ScrollBars = System.Windows.Forms.ScrollBars.Both;
+            this.textBoxPostText.Size = new System.Drawing.Size(286, 147);
+            this.textBoxPostText.TabIndex = 0;
+            // 
             // textBoxSaveToolPostText
             // 
             this.textBoxSaveToolPostText.DataSource = null;
@@ -913,6 +818,51 @@
             this.textBoxSaveToolPostText.Name = "textBoxSaveToolPostText";
             this.textBoxSaveToolPostText.Size = new System.Drawing.Size(286, 36);
             this.textBoxSaveToolPostText.TabIndex = 0;
+            // 
+            // groupBox8
+            // 
+            this.groupBox8.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.groupBox8.Controls.Add(this.splitContainer8);
+            this.groupBox8.Location = new System.Drawing.Point(6, 218);
+            this.groupBox8.Name = "groupBox8";
+            this.groupBox8.Size = new System.Drawing.Size(292, 206);
+            this.groupBox8.TabIndex = 1;
+            this.groupBox8.TabStop = false;
+            this.groupBox8.Text = "Poly_3";
+            // 
+            // splitContainer8
+            // 
+            this.splitContainer8.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.splitContainer8.FixedPanel = System.Windows.Forms.FixedPanel.Panel2;
+            this.splitContainer8.IsSplitterFixed = true;
+            this.splitContainer8.Location = new System.Drawing.Point(3, 16);
+            this.splitContainer8.Name = "splitContainer8";
+            this.splitContainer8.Orientation = System.Windows.Forms.Orientation.Horizontal;
+            // 
+            // splitContainer8.Panel1
+            // 
+            this.splitContainer8.Panel1.Controls.Add(this.textBoxPolyText);
+            // 
+            // splitContainer8.Panel2
+            // 
+            this.splitContainer8.Panel2.Controls.Add(this.textBoxSaveToolPolyText);
+            this.splitContainer8.Size = new System.Drawing.Size(286, 187);
+            this.splitContainer8.SplitterDistance = 147;
+            this.splitContainer8.TabIndex = 1;
+            // 
+            // textBoxPolyText
+            // 
+            this.textBoxPolyText.AcceptsReturn = true;
+            this.textBoxPolyText.AcceptsTab = true;
+            this.textBoxPolyText.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textBoxPolyText.Font = new System.Drawing.Font("Courier New", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxPolyText.Location = new System.Drawing.Point(0, 0);
+            this.textBoxPolyText.Multiline = true;
+            this.textBoxPolyText.Name = "textBoxPolyText";
+            this.textBoxPolyText.ScrollBars = System.Windows.Forms.ScrollBars.Both;
+            this.textBoxPolyText.Size = new System.Drawing.Size(286, 147);
+            this.textBoxPolyText.TabIndex = 0;
             // 
             // textBoxSaveToolPolyText
             // 
@@ -923,6 +873,51 @@
             this.textBoxSaveToolPolyText.Size = new System.Drawing.Size(286, 36);
             this.textBoxSaveToolPolyText.TabIndex = 0;
             // 
+            // groupBox7
+            // 
+            this.groupBox7.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.groupBox7.Controls.Add(this.splitContainer7);
+            this.groupBox7.Location = new System.Drawing.Point(6, 6);
+            this.groupBox7.Name = "groupBox7";
+            this.groupBox7.Size = new System.Drawing.Size(292, 206);
+            this.groupBox7.TabIndex = 0;
+            this.groupBox7.TabStop = false;
+            this.groupBox7.Text = "Database Retrieval";
+            // 
+            // splitContainer7
+            // 
+            this.splitContainer7.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.splitContainer7.FixedPanel = System.Windows.Forms.FixedPanel.Panel2;
+            this.splitContainer7.IsSplitterFixed = true;
+            this.splitContainer7.Location = new System.Drawing.Point(3, 16);
+            this.splitContainer7.Name = "splitContainer7";
+            this.splitContainer7.Orientation = System.Windows.Forms.Orientation.Horizontal;
+            // 
+            // splitContainer7.Panel1
+            // 
+            this.splitContainer7.Panel1.Controls.Add(this.textBoxDBText);
+            // 
+            // splitContainer7.Panel2
+            // 
+            this.splitContainer7.Panel2.Controls.Add(this.textBoxSaveToolDBText);
+            this.splitContainer7.Size = new System.Drawing.Size(286, 187);
+            this.splitContainer7.SplitterDistance = 147;
+            this.splitContainer7.TabIndex = 1;
+            // 
+            // textBoxDBText
+            // 
+            this.textBoxDBText.AcceptsReturn = true;
+            this.textBoxDBText.AcceptsTab = true;
+            this.textBoxDBText.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textBoxDBText.Font = new System.Drawing.Font("Courier New", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxDBText.Location = new System.Drawing.Point(0, 0);
+            this.textBoxDBText.Multiline = true;
+            this.textBoxDBText.Name = "textBoxDBText";
+            this.textBoxDBText.ScrollBars = System.Windows.Forms.ScrollBars.Both;
+            this.textBoxDBText.Size = new System.Drawing.Size(286, 147);
+            this.textBoxDBText.TabIndex = 0;
+            // 
             // textBoxSaveToolDBText
             // 
             this.textBoxSaveToolDBText.DataSource = null;
@@ -931,6 +926,10 @@
             this.textBoxSaveToolDBText.Name = "textBoxSaveToolDBText";
             this.textBoxSaveToolDBText.Size = new System.Drawing.Size(286, 36);
             this.textBoxSaveToolDBText.TabIndex = 0;
+            // 
+            // openFileDialogImport
+            // 
+            this.openFileDialogImport.FileName = "openFileDialog1";
             // 
             // MainForm
             // 
@@ -964,43 +963,43 @@
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer2)).EndInit();
             this.splitContainer2.ResumeLayout(false);
             this.groupBox2.ResumeLayout(false);
+            this.splitContainer3.Panel1.ResumeLayout(false);
+            this.splitContainer3.Panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer3)).EndInit();
+            this.splitContainer3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewElm)).EndInit();
             this.groupBox4.ResumeLayout(false);
+            this.splitContainer4.Panel1.ResumeLayout(false);
+            this.splitContainer4.Panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer4)).EndInit();
+            this.splitContainer4.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewCond)).EndInit();
             this.tabPhase.ResumeLayout(false);
             this.groupBox3.ResumeLayout(false);
             this.splitContainer5.Panel1.ResumeLayout(false);
             this.splitContainer5.Panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer5)).EndInit();
             this.splitContainer5.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewPhases)).EndInit();
             this.tabBefehle.ResumeLayout(false);
-            this.groupBox7.ResumeLayout(false);
-            this.splitContainer3.Panel1.ResumeLayout(false);
-            this.splitContainer3.Panel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.splitContainer3)).EndInit();
-            this.splitContainer3.ResumeLayout(false);
-            this.splitContainer7.Panel1.ResumeLayout(false);
-            this.splitContainer7.Panel1.PerformLayout();
-            this.splitContainer7.Panel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.splitContainer7)).EndInit();
-            this.splitContainer7.ResumeLayout(false);
-            this.splitContainer4.Panel1.ResumeLayout(false);
-            this.splitContainer4.Panel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.splitContainer4)).EndInit();
-            this.splitContainer4.ResumeLayout(false);
-            this.groupBox8.ResumeLayout(false);
-            this.splitContainer8.Panel1.ResumeLayout(false);
-            this.splitContainer8.Panel1.PerformLayout();
-            this.splitContainer8.Panel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.splitContainer8)).EndInit();
-            this.splitContainer8.ResumeLayout(false);
             this.groupBox9.ResumeLayout(false);
             this.splitContainer9.Panel1.ResumeLayout(false);
             this.splitContainer9.Panel1.PerformLayout();
             this.splitContainer9.Panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer9)).EndInit();
             this.splitContainer9.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewElm)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewCond)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewPhases)).EndInit();
+            this.groupBox8.ResumeLayout(false);
+            this.splitContainer8.Panel1.ResumeLayout(false);
+            this.splitContainer8.Panel1.PerformLayout();
+            this.splitContainer8.Panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer8)).EndInit();
+            this.splitContainer8.ResumeLayout(false);
+            this.groupBox7.ResumeLayout(false);
+            this.splitContainer7.Panel1.ResumeLayout(false);
+            this.splitContainer7.Panel1.PerformLayout();
+            this.splitContainer7.Panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer7)).EndInit();
+            this.splitContainer7.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }

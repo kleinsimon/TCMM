@@ -235,10 +235,23 @@ namespace TC_Macro_Manager
 
             using (MemoryStream stream = new MemoryStream())
             {
+                System.Xml.XmlWriterSettings ws = new System.Xml.XmlWriterSettings();
+                ws.NewLineHandling = System.Xml.NewLineHandling.Entitize;
+
                 System.Xml.Serialization.XmlSerializer x = new System.Xml.Serialization.XmlSerializer(typeof(Makro));
-                x.Serialize(stream, CurrentMakro);
+                using (System.Xml.XmlWriter wr = System.Xml.XmlWriter.Create(stream, ws))
+                {
+                    x.Serialize(wr, CurrentMakro);
+                }
                 stream.Position = 0;
-                newws = (Makro)x.Deserialize(stream);
+
+                System.Xml.XmlReaderSettings rs = new System.Xml.XmlReaderSettings();
+
+                using (System.Xml.XmlReader rd = System.Xml.XmlReader.Create(stream, rs))
+                {
+                    newws = (Makro)x.Deserialize(rd, "");
+                }
+                //newws = (Makro)x.Deserialize(stream);
             }
 
             newws.Name += "_Copy";
