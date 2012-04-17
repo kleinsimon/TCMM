@@ -90,14 +90,14 @@
             this.splitContainer9 = new System.Windows.Forms.SplitContainer();
             this.textBoxPostText = new System.Windows.Forms.TextBox();
             this.dataGridViewElm = new TC_Macro_Manager.DataGridViewEx();
-            this.SaveToolElement = new TC_Macro_Manager.SaveTool();
+            this.SaveToolElement = new TC_Macro_Manager.GridWithSaveTool();
             this.dataGridViewCond = new TC_Macro_Manager.DataGridViewEx();
-            this.SaveToolCondition = new TC_Macro_Manager.SaveTool();
+            this.SaveToolCondition = new TC_Macro_Manager.GridWithSaveTool();
             this.dataGridViewPhases = new TC_Macro_Manager.DataGridViewEx();
-            this.SaveToolPhases = new TC_Macro_Manager.SaveTool();
-            this.textBoxSaveToolPostText = new TC_Macro_Manager.SaveTool();
-            this.textBoxSaveToolPolyText = new TC_Macro_Manager.SaveTool();
-            this.textBoxSaveToolDBText = new TC_Macro_Manager.SaveTool();
+            this.SaveToolPhases = new TC_Macro_Manager.GridWithSaveTool();
+            this.textBoxSaveToolPostText = new TC_Macro_Manager.TextBoxSaveTool();
+            this.textBoxSaveToolPolyText = new TC_Macro_Manager.TextBoxSaveTool();
+            this.textBoxSaveToolDBText = new TC_Macro_Manager.TextBoxSaveTool();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -1040,9 +1040,9 @@
         private System.Windows.Forms.Button buttonRunMacro;
         private System.Windows.Forms.ToolTip toolTipCntrl;
         private System.Windows.Forms.SplitContainer splitContainer4;
-        private SaveTool SaveToolCondition;
+        private GridWithSaveTool SaveToolCondition;
         private System.Windows.Forms.SplitContainer splitContainer5;
-        private SaveTool SaveToolPhases;
+        private GridWithSaveTool SaveToolPhases;
         private System.Windows.Forms.Button buttonExport;
         private System.Windows.Forms.SaveFileDialog saveFileDialogExport;
         private System.Windows.Forms.Button buttonOpen;
@@ -1054,18 +1054,18 @@
         private System.Windows.Forms.GroupBox groupBox7;
         private System.Windows.Forms.SplitContainer splitContainer3;
         private DataGridViewEx dataGridViewElm;
-        private SaveTool SaveToolElement;
+        private GridWithSaveTool SaveToolElement;
         private System.Windows.Forms.SplitContainer splitContainer7;
         private System.Windows.Forms.TextBox textBoxDBText;
-        private SaveTool textBoxSaveToolDBText;
+        private TextBoxSaveTool textBoxSaveToolDBText;
         private System.Windows.Forms.GroupBox groupBox9;
         private System.Windows.Forms.SplitContainer splitContainer9;
         private System.Windows.Forms.TextBox textBoxPostText;
-        private SaveTool textBoxSaveToolPostText;
+        private TextBoxSaveTool textBoxSaveToolPostText;
         private System.Windows.Forms.GroupBox groupBox8;
         private System.Windows.Forms.SplitContainer splitContainer8;
         private System.Windows.Forms.TextBox textBoxPolyText;
-        private SaveTool textBoxSaveToolPolyText;
+        private TextBoxSaveTool textBoxSaveToolPolyText;
     }
 }
 

@@ -173,18 +173,18 @@ namespace TC_Macro_Manager
             Makros.ListChanged += new ListChangedEventHandler(Werkstoffe_ListChanged);
 
             SaveToolElement.DataSource = Werkstoffe;
-            SaveToolElement.RelControl = dataGridViewElm;
+            SaveToolElement.RelDataGridView = dataGridViewElm;
             SaveToolCondition.DataSource = Bedingungen;
-            SaveToolCondition.RelControl = dataGridViewCond;
+            SaveToolCondition.RelDataGridView = dataGridViewCond;
             SaveToolPhases.DataSource = PhasenSets;
-            SaveToolPhases.RelControl = dataGridViewPhases;
+            SaveToolPhases.RelDataGridView = dataGridViewPhases;
 
             textBoxSaveToolDBText.DataSource = MData.DBText;
-            textBoxSaveToolDBText.RelControl = textBoxDBText;
+            textBoxSaveToolDBText.RelTextBox = textBoxDBText;
             textBoxSaveToolPolyText.DataSource = MData.PolyText;
-            textBoxSaveToolPolyText.RelControl = textBoxPolyText;
+            textBoxSaveToolPolyText.RelTextBox = textBoxPolyText;
             textBoxSaveToolPostText.DataSource = MData.PostText;
-            textBoxSaveToolPostText.RelControl = textBoxPostText;
+            textBoxSaveToolPostText.RelTextBox = textBoxPostText;
 
             listBoxMakros.Focus();
         }
