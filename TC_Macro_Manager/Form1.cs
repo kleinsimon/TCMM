@@ -322,26 +322,10 @@ namespace TC_Macro_Manager
                 int savedVpos = ScrollHelper.GetScrollPos(textBox1.Handle, ScrollHelper.SB_VERT);
                 ScrollHelper.GetScrollRange(textBox1.Handle, ScrollHelper.SB_VERT, out vsmin, out vsmax);
 
-
-                
                 textBox1.Text = TCM.makeMacro(CurrentMakro);
-
 
                 ScrollHelper.SetScrollPos(textBox1.Handle, ScrollHelper.SB_VERT, savedVpos, true);
                 ScrollHelper.PostMessageA(textBox1.Handle, ScrollHelper.WM_VSCROLL, ScrollHelper.SB_THUMBPOSITION + 0x10000 * savedVpos, 0);
-            }
-        }
-
-        private void dataGridViewElm_CurrentCellDirtyStateChanged(object sender, EventArgs e)
-        {
-            if (sender.GetType() == typeof(DataGridView))
-            {
-                ((DataGridView)sender).EndEdit();
-                ((DataGridView)sender).BeginEdit(false);
-            }
-            else if (sender.GetType() == typeof(TextBox))
-            {
-
             }
         }
 

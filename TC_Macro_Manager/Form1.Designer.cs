@@ -673,7 +673,6 @@
             this.dataGridViewCond.RowHeadersWidth = 25;
             this.dataGridViewCond.Size = new System.Drawing.Size(300, 122);
             this.dataGridViewCond.TabIndex = 1;
-            this.dataGridViewCond.CurrentCellDirtyStateChanged += new System.EventHandler(this.dataGridViewElm_CurrentCellDirtyStateChanged);
             // 
             // SaveToolCondition
             // 
@@ -741,7 +740,6 @@
             this.dataGridViewPhases.RowHeadersWidth = 25;
             this.dataGridViewPhases.Size = new System.Drawing.Size(294, 600);
             this.dataGridViewPhases.TabIndex = 0;
-            this.dataGridViewPhases.CurrentCellDirtyStateChanged += new System.EventHandler(this.dataGridViewElm_CurrentCellDirtyStateChanged);
             // 
             // SaveToolPhases
             // 
