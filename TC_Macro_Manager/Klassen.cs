@@ -46,7 +46,6 @@ switch {3}
 {0}
 
 @@@ Phases
-reject phases *
 {4}
 
 @@@ Custom Commands DB
@@ -85,7 +84,14 @@ Set_Interactive
                 c++;
             }
 
-            return tmp;
+            if (c > 0)
+            {
+                return @"reject phases *" + Environment.NewLine + tmp;
+            }
+            else
+            {
+                return "";
+            }
         }
 
         private string getElm(Makro ws)
@@ -112,7 +118,7 @@ Set_Interactive
             {
                 if (elm.Disabled) continue;
 
-                if (elm.Value != null && elm.Value != "")
+                if (elm.Value != null && elm.Value != "" && elm.Name != null && elm.Name != "")
                 {
                     tmp += Environment.NewLine + "Set_Condition " + ConvUnit(elm.Kind, elm.Name, elm.Value);
                 }
@@ -124,7 +130,7 @@ Set_Interactive
             {
                 if (elm.Disabled) continue;
 
-                if (elm.Value != null && elm.Value != "")
+                if (elm.Value != null && elm.Value != "" && elm.Name != null && elm.Name != "")
                 {
                     tmp += Environment.NewLine + "Set_Condition " + ConvUnit(elm.Kind, elm.Name, elm.Value);
                 }
@@ -139,13 +145,18 @@ Set_Interactive
             string tmp = "";
             val = val.Trim();
 
-            if (kind == ValKind.MPC) tmp += @"w(" + Name.ToLower() + @")=" + (DblSaveConvert(val) / 100d);
-            else if (kind == ValKind.VPC) tmp += @"v(" + Name.ToLower() + @")=" + (DblSaveConvert(val) / 100d);
-            else if (kind == ValKind.VPC) tmp += @"v(" + Name.ToLower() + @")=" + (DblSaveConvert(val) / 100d);
-            else if (kind == ValKind.DGC) tmp += @"" + Name.ToLower() + @"=" + (DblSaveConvert(val) + 273.15d);
-            else if (kind == ValKind.BAR) tmp += @"" + Name.ToLower() + @"=" + (DblSaveConvert(val) / 1e5d);
-            else tmp += @"" + Name.ToLower() + @"=" + (val);
-
+            try
+            {
+                if (kind == ValKind.MPC) tmp += @"w(" + Name.ToLower() + @")=" + (DblSaveConvert(val) / 100d);
+                else if (kind == ValKind.VPC) tmp += @"v(" + Name.ToLower() + @")=" + (DblSaveConvert(val) / 100d);
+                else if (kind == ValKind.DGC) tmp += @"" + Name.ToLower() + @"=" + (DblSaveConvert(val) + 273.15d);
+                else if (kind == ValKind.BAR) tmp += @"" + Name.ToLower() + @"=" + (DblSaveConvert(val) / 1e5d);
+                else tmp += @"" + Name.ToLower() + @"=" + (val);
+            }
+            catch
+            {
+                return "";
+            }
             return tmp;
         }
 
